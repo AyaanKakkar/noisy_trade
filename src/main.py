@@ -4,7 +4,7 @@ warnings.filterwarnings("ignore")
 
 from backtesting import Backtest, Strategy
 from lib.utils import get_data
-from lib.strategy.MovingAverageCrossover import MovingAverageCrossoverStrategy
+from lib.strategies.MovingAverageCrossover import MovingAverageCrossoverStrategy
 from backtesting.test import GOOG
 import time
 
