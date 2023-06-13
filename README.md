@@ -6,16 +6,18 @@ Create a python virtual environment and install the requirements from `requireme
 
 After you have cloned the repository, run the following commands in the root directory of the project.
 
+Windows:
+
 ```bash
-python3 -m venv env
-source env/bin/activate
+python -m venv env
+.\env\Scripts\activate
 pip install -r requirements.txt
 ```
 
 To run the project, run the following command in the root directory of the project.
 
 ```bash
-python3 src/main.py
+python src/main.py
 ```
 
 ## Project Structure
